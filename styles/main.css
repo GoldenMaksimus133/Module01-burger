@@ -9,7 +9,7 @@ body{
         padding-right: 15px;
     }
     header{
-        border=bottom: 1px solid #DEDEDE;
+        border-bottom: 1px solid #DEDEDE;
     }
     .header{
         font-family: 'Open Sans', sans-serif;
@@ -161,7 +161,7 @@ body{
     font-family: 'Nunito Sans', sans-serif;
     margin-left: 100px;
    }
-   span{
+   .spani{
     color: #FFFFFF;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
