@@ -268,9 +268,7 @@ body{
     transform: translate(-50%, 0);
     padding: 10px 52px 10px;
     border: none;
-    text-align: center;
-    
-
+    text-align: center; 
   }
   .manu-grid-icon{
     background-image: url(../images/car.svg);
