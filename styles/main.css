@@ -142,52 +142,153 @@ body{
         max-width: 320px;
         margin: 0 auto;
     }
-    .container{
-        margin-top: 7px;
-        padding-left: 48px;
-
-    }
-
-   .banner-box{
+     .banner-box{
     background-image: url(../images/banner.jpg);
-    padding: 41px 0;
-    background-size: cover;
+    padding: 100px 100px 120px;
+    background-size: cover;  
     background-position: center center;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+
    }
    .banner-titel {
     font-weight: 900;
     font-size: 60px; 
     color:#FFFFFF;
-    font-family: 'Nunito Sans', sans-serif;
-    margin-left: 100px;
+    margin-top: 0;
+    max-width: 350px;
+    line-height: 1.5;
+    line-height: -18px;
+    margin-bottom: 12px;
    }
    .spani{
-    color: #FFFFFF;
+    text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 14px;
-    border-radius: 15px;
+    border-radius: 14px;
     background-color: #F37335;
-    padding: 1em 24px;
+    line-height: 18px;
     top: 20px;
-    
+    display: block;
+    max-width: 61px;
+    padding: 5px 19px 5px 17px;
+    margin-bottom: 9px;
    }
   .banner-text{
     font-weight: 400;
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
     color: #FAF9F9;
-    padding: 100px;
+    max-width: 353px;
+    line-height: 1.5;
+   
 
   }
   .banner-link{
     background-color:#FBB731 ;
     color: #1E2F40;
-    padding: 10px 20px 10px 20px;
+    line-height: 1.9;
     text-decoration: none;
-    margin-left: 30px;
+    display: block;
+    max-width: 170px;
+    text-align: center;
+    padding: 20px 27px;
     border-radius: 5px;
+    font-size: 18px;
+    text-transform: uppercase; 
   }
+  .menu-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+  }
+  .menu-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    text-transform: uppercase;
+    color: #1B2A49;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+  }
+  .menu-select{
+    border: 1px solid #DEDEDE;
+    padding: 13px 30px;
+    border-radius: 22px;
+    color: #443737;
+    font-size: 15px;
+    appearance: none;
+    flex-basis: 279px;
+    background-image: url(../images/arrow.svg);
+    background-size: 12.79px 7.75px;
+    background-repeat: no-repeat;
+    background-position: 89% center;
+  }
+  .menu-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .menu-grid-cover{
+    width: 100%;
+    Height: 430px;
+    position: relative;
+    overflow: hidden;
+  }
+  .menu-grid-cover.img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% -50%);
+    object-fit: cover;
+    width: 100%;
+    height: 430px;
+  }
+  .menu-grid-title{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    color: #1B2A49;
+    text-align: center;
+  }
+  .menu-grid-price{
+    font-weight: 700;
+    font-size: 20px;
+    color: #979797;
+    text-align: center;
+  }
+  .menu-grid-btn{
+    background: #FBB731;
+    border-radius: 5px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 10px 52px 10px;
+    border: none;
+    text-align: center;
+    
+
+  }
+  .manu-grid-icon{
+    background-image: url(../images/car.svg);
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    margin-left: -30px;
+  }
+  .menu-grid-text{
+    color: #1E2F40;
+    font-weight: 700;
+    font-size: 14px;  
+    font-family: 'Nunito Sans', sans-serif;
+    
+    width: 70px;
+
+  }
+
 
 
     
